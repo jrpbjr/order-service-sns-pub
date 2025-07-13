@@ -12,7 +12,7 @@
 
     data:
       mongodb:
-        uri: mongodb://${DATABASE_USER:sa_sns_pub}:${DATABASE_PASSWORD:sa_sns_pub}@${DATABASE_URI:localhost:27018}
+        uri: mongodb://${DATABASE_USER:sa_sns_pub}:${DATABASE_PASSWORD:sa_sns_pub}@${DATABASE_URI:192.168.0.197:27018}
         database: ${DATABASE_NAME:sns_pub}
         uuid-representation: standard
         authentication-database: admin
